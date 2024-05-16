@@ -2,6 +2,7 @@
     font-family: font;
     src: url(KronaOne-Regular.ttf);
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -14,8 +15,8 @@
 }
 
 body {
-    background: rgb(78,2,46);
-    background: linear-gradient(180deg, rgba(78,2,46,1) 58%, rgba(242,108,169,1) 100%);
+    background: rgb(78, 2, 46);
+    background: linear-gradient(180deg, rgba(78, 2, 46, 1) 58%, rgba(242, 108, 169, 1) 100%);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -44,11 +45,25 @@ body {
     color: white;
 }
 
+.my-btn1:hover,.my-btn1:active {
+    background-color: var(--pink);
+    border: none;
+    color: var(--magenta);
+}
+
 .my-btn2 {
     background-color: var(--pink);
     border: none;
     color: var(--magenta);
 }
+
+.my-btn2:hover,.my-btn2:active {
+    background-color: var(--magenta);
+    border: 1px solid var(--pink);
+    color: white;
+}
+
+
 .hero {
     background-image: url(./images/1709402595543\ 1.png);
     background-size: cover;
@@ -59,7 +74,6 @@ body {
 .hero-col {
     margin-top: 8% !important;
 }
-
 .myimg {
     margin-top: 6rem;
 }
