@@ -1,0 +1,65 @@
+@font-face {
+    font-family: font;
+    src: url(KronaOne-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --pink: #F17AD4;
+    --magenta: #4e022e;
+}
+
+body {
+    background: rgb(78,2,46);
+    background: linear-gradient(180deg, rgba(78,2,46,1) 58%, rgba(242,108,169,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pink {
+    color: var(--pink) !important;
+}
+
+.magenta {
+    color: var(--magenta) !important;
+}
+
+.font {
+    font-family: font !important;
+    font-weight: 400;
+}
+
+
+.bg {
+    color: white !important;
+}
+
+.my-btn1 {
+    background-color: var(--magenta);
+    border: 1px solid var(--pink);
+    color: white;
+}
+
+.my-btn2 {
+    background-color: var(--pink);
+    border: none;
+    color: var(--magenta);
+}
+.hero {
+    background-image: url(./images/1709402595543\ 1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.hero-col {
+    margin-top: 8% !important;
+}
+
+.myimg {
+    margin-top: 6rem;
+}
